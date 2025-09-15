@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retro Football Tales</title>
+  <style>
+    body {
+      font-family: 'Merriweather', serif;
+      background-color: #f9f5ef;
+      color: #2e2e2e;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_1930s.jpg') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 64px;
+      margin: 0;
+      text-shadow: 2px 2px 6px #000;
+    }
+    header p {
+      font-size: 20px;
+      font-style: italic;
+    }
+    nav {
+      background-color: #3a3a3a;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #d4af37;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+    .post {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    }
+    .post h2 {
+      font-family: 'Oswald', sans-serif;
+      color: #3a3a3a;
+      margin-top: 0;
+    }
+    .sidebar {
+      background: #fffaf0;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .sidebar h3 {
+      margin-top: 0;
+      color: #3a3a3a;
+    }
+    footer {
+      text-align: center;
+      background-color: #3a3a3a;
+      color: #fff;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #d4af37;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Retro Football Tales</h1>
+    <p>Reliving the Beautiful Game's Greatest Stories</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Legends</a>
+    <a href="#">Matches</a>
+    <a href="#">Stadiums</a>
+    <a href="#">Kits</a>
+    <a href="#">Fan Voices</a>
+  </nav>
+
+  <div class="container">
+    <main>
+      <div class="post">
+        <h2>The Miracle of Istanbul (2005)</h2>
+        <p>Relive the unforgettable Champions League Final where Liverpool staged one of the greatest comebacks in football history against AC Milan. From 3-0 down at halftime to lifting the trophy, this night in Istanbul remains legendary...</p>
+      </div>
+      <div class="post">
+        <h2>Pelé: The King of Football</h2>
+        <p>Explore the story of Pelé, the Brazilian superstar who captured the world’s imagination with his dazzling skills, goals, and three World Cup triumphs...</p>
+      </div>
+    </main>
+
+    <aside class="sidebar">
+      <h3>On This Day</h3>
+      <p>Sept 15, 1982 – Diego Maradona scored his first goal for Barcelona.</p>
+
+      <h3>Poll</h3>
+      <p>Greatest World Cup Final?</p>
+      <ul>
+        <li>Brazil vs Italy (1970)</li>
+        <li>Argentina vs Germany (1986)</li>
+        <li>France vs Croatia (2018)</li>
+      </ul>
+
+      <h3>Join the Retro Squad</h3>
+      <p>Subscribe to our newsletter for weekly football stories.</p>
+    </aside>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Retro Football Tales</p>
+    <p>
+      <a href="#">Twitter</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">YouTube</a>
+    </p>
+  </footer>
+</body>
+</html>
